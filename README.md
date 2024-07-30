@@ -17,6 +17,6 @@ This is a simple weather application built using HTML, CSS, and JavaScript. It f
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/HEDAjoy/weather-app.git
- APT-group
+  gh repo clone HEDAjoy/APT-group
+APT-group
 Our Weather App
