@@ -1,0 +1,97 @@
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('WhatsApp\ Image\ 2024-07-30\ at\ 17.15.31_191fe81d.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+.weather-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:rgba(rgb(129, 205, 235), green, blue, alpha);
+
+}
+
+.weather-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.weather-header input,
+.weather-header button {
+    margin: 0 5px;
+    padding: 10px;
+}
+
+.weather-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.current-weather,
+.forecast-container {
+    flex: 1;
+    max-width: 400px;
+}
+
+.weather-info {
+    text-align: center;
+}
+
+.weather-info img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.forecast-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hourly-forecast,
+.daily-forecast {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.hourly-forecast-content,
+.daily-forecast-content {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.forecast-item {
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100px;
+    flex-shrink: 0;
+}
+
+.forecast-icon img {
+    max-width: 50px;
+}

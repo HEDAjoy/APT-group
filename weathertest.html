@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <h1>WEATHER DASHBOARD</h1>
+    <div class="weather-container" role="main">
+        <div class="loader" id="loading-spinner" aria-label="Loading"></div>
+        <header class="weather-header">
+            <input type="text" id="city-input" placeholder="Enter city name" aria-label="City Name">
+            <button id="search-btn" aria-label="Get Weather">Get Weather</button>
+        </header>
+        <section class="weather-main">
+            <div class="current-weather">
+                <h1 id="city-name">City Name</h1>
+                <p id="date">Date</p>
+                <div class="weather-info">
+                    <img id="weather-icon" src="" alt="Weather icon">
+                    <p id="temperature">Temperature</p>
+                    <p id="description">Description</p>
+                    <p id="humidity">Humidity</p>
+                    <p id="wind">Wind Speed</p>
+                </div>
+            </div>
+            <div class="forecast-container">
+                <div class="hourly-forecast">
+                    <h2>Today's Hourly Forecast</h2>
+                    <div class="hourly-forecast-content"></div>
+                </div>
+                <div class="daily-forecast">
+                    <h2>5-Day Forecast</h2>
+                    <div class="daily-forecast-content"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
